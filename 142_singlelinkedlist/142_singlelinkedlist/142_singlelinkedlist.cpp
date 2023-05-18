@@ -99,6 +99,15 @@ bool Traverse() {
 	}
 }
 
+void searchData() {
+	if (listEmpty()) {
+		cout << "List Kosong" << endl;
+		system("Pause");
+		system("cls");
+		return;
+	}
+}
+
 int main() {
 
 }
