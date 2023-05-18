@@ -140,7 +140,24 @@ int main() {
 				system("Pause");
 				system("cls");
 				break;
-
+			case 2:
+				if (listEmpty()) {
+					cout << "List Kosong" << endl;
+					system("Pause");
+					system("cls");
+					break;
+				}
+				int nim;
+				cout << "Masukkan NIM: ";
+				cin >> nim;
+				if (DeleteNode(nim)) {
+					cout << "NIM: " << nim << "Berhasil dihapus" << endl;
+					system("Pause");
+					system("cls");
+				}
+				else
+					cout << "Data Tidak Ditemukan" << endl;
+				break;
 			}
 		}
 	}
