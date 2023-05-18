@@ -171,6 +171,9 @@ int main() {
 				break;
 			}
 		}
+		catch (exception e) {
+			cout << "Terjadi Kesalahan" << endl;
+		}
 	}
 }
 
