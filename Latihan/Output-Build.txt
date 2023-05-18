@@ -1,0 +1,10 @@
+﻿Build started...
+1>------ Build started: Project: Activity2_142, Configuration: Debug x64 ------
+1>Activity2_142.cpp
+1>D:\SMT 2\Dasar Pemrogaman\Latihan\Activity2_142\Activity2_142\Activity2_142.cpp(9,18): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+1>D:\SMT 2\Dasar Pemrogaman\Latihan\Activity2_142\Activity2_142\Activity2_142.cpp(13,17): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+1>D:\SMT 2\Dasar Pemrogaman\Latihan\Activity2_142\Activity2_142\Activity2_142.cpp(20,6): error C2086: 'int pilihan': redefinition
+1>D:\SMT 2\Dasar Pemrogaman\Latihan\Activity2_142\Activity2_142\Activity2_142.cpp(19,6): message : see declaration of 'pilihan'
+1>Done building project "Activity2_142.vcxproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 11:11 AM and took 01.466 seconds ==========
